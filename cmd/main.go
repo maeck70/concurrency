@@ -42,6 +42,7 @@ func main() {
 	wg.Wait()
 
 	// Print results
+	fmt.Println("Done\n\nResults:")
 	for _, d := range data {
 		d.Print()
 	}
